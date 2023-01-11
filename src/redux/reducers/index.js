@@ -3,7 +3,7 @@ import { todoReducer } from "./todoReducer";
 import { counterReducer } from "./counterReducer";
 
 const rootReducer=combineReducers({  
-    todoReducer,
-    counterReducer
+   todo:todoReducer,
+   count: counterReducer
 })
 export default rootReducer;
